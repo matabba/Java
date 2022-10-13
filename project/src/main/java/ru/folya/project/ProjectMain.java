@@ -13,7 +13,7 @@ public class practice {
         System.out.println("Type Operation");
         sc.nextLine();
         String action = sc.nextLine();
-        action = scanner.nextline();
+        action = sc.nextLine();
 
         int result = 0;
         System.out.println("Operation result: " + result);
@@ -34,7 +34,7 @@ public class practice {
                 System.out.println("Result " + result);
                 break;
             case "/":
-                if(num == 0)
+                if(num1 == 0)
                 System.out.print("Error");
             else
                 res = num1 / num2;
